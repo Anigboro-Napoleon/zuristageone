@@ -4,7 +4,7 @@ const ZuriStage1 = () => {
     return (
         <>
             <div className='profile-photo'>
-                <img src="/assets/profile_img.jpg" alt="Profile Image" id='profile__img' />
+                <img src="/assets/profile_img.jpg" alt="Profile" id='profile__img' />
             </div>
             <p id='twitter'>Emmanuelolaolu5</p>
             <p id='slack'>LuHan</p>
@@ -15,24 +15,30 @@ const ZuriStage1 = () => {
 
             <div className="links-section">
                 <div className="link-section">
-                    <a href="https://twitter.com/Emmanuelolaolu5" id='btn__twitter' target='_blank'>Twitter Link</a>
+                    <a href="https://twitter.com/Emmanuelolaolu5" id='btn__twitter' target='_blank' rel="noreferrer">
+                        Twitter Link
+                    </a>
                 </div>
                 <div className="link-section">
-                    <a href="https://training.zuri.team/" id='btn__zuri' target='_blank'>Zuri Team</a>
+                    <a href="https://training.zuri.team/" id='btn__zuri' target='_blank' rel="noreferrer">Zuri Team</a>
                 </div>
                 <div className="link-section">
-                    <a href="http://books.zuri.team" id='books' target='_blank'>Zuri Books</a>
+                    <a href="http://books.zuri.team" id='books' target='_blank' rel="noreferrer">Zuri Books</a>
                 </div>
                 <div className="link-section">
-                    <a href="https://books.zuri.team/python-for-beginners?ref_id=Olaoluwa Anigboro-Napoleon" id='books' target='_blank'>
+                    <a href="https://books.zuri.team/python-for-beginners?ref_id=Olaoluwa Anigboro-Napoleon" id='books' target='_blank' rel="noreferrer">
                         Python Books
                     </a>
                 </div>
                 <div className="link-section">
-                    <a href="https://background.zuri.team" id='pitch' target='_blank'>Background check for Coders</a>
+                    <a href="https://background.zuri.team" id='pitch' target='_blank' rel="noreferrer">
+                        Background check for Coders
+                    </a>
                 </div>
                 <div className="link-section">
-                    <a href="https://books.zuri.team/design-rules" id='book__design' target='_blank'>Design Books</a>
+                    <a href="https://books.zuri.team/design-rules" id='book__design' target='_blank' rel="noreferrer">
+                        Design Books
+                    </a>
                 </div>
             </div>
 
