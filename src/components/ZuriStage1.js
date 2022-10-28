@@ -4,7 +4,7 @@ const ZuriStage1 = () => {
     return (
         <>
             <div className='profile-photo'>
-                <img src="/assets/profile_img.jpg" alt="Profile" id='profile__img' />
+                <img src="/assets/profile-img.jpg" alt="Profile" id='profile__img' />
             </div>
             <p id='twitter'>Emmanuelolaolu5</p>
             <p id='slack'>LuHan</p>
